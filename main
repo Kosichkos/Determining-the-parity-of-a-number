@@ -1,0 +1,15 @@
+#include <iostream>
+
+bool isEven(int x) {
+    return (x & 1) == 0;
+}
+
+int main() {
+    int x = 4;
+    if (isEven(x)) {
+        std::cout << x << " is even." << std::endl;
+    } else {
+        std::cout << x << " is odd." << std::endl;
+    }
+    return 0;
+}
